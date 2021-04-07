@@ -1,0 +1,48 @@
+{
+  "title": "António Ferreira",
+  "url": "https://antónio.pt/",
+  "language": "en",
+  "description": "I write here about being a frontend developer and some other random projects",
+  "feed": {
+    "subtitle": "I write here about being a frontend developer and some other random projects",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://antónio.pt/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://antónio.pt/feed/feed.json"
+  },
+  "author": {
+    "name": "António Ferreira",
+    "email": "antonio.lcp.ferreira@gmail.com",
+    "url": "https://antónio.pt/"
+  },
+  "links": [
+    {
+      "name": "Resume",
+      "url": "https://github.com/m1aw/resume/releases/download/v1.0.3/resume_antonio_ferreira_20210321.pdf"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/m1aw"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/m1awww"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/antonioferreiraa/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.antónio.pt"
+    },
+    {
+      "disabled": true,
+      "name": "Wiki",
+      "url": "https://wiki.antónio.pt"
+    }
+  ]
+}

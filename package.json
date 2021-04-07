@@ -1,0 +1,23 @@
+{
+  "name": "11ty-m1aw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1aw/11ty-m1aw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1aw/11ty-m1aw/issues"
+  },
+  "homepage": "https://github.com/m1aw/11ty-m1aw#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

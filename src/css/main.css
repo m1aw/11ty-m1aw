@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --color-background: #282a36;
+  --color-current-line: #44475a;
+  --color-section: #44475a;
+
+  --color-foreground: #f8f8f2;
+  --color-comment: #6272a4;
+  --color-cyan: #8be9fd;
+  --color-green: #50fa7b;
+  --color-orange: #ffb86c;
+  --color-pink: #ff79c6;
+  --color-purple: #bd93f9;
+  --color-red: #ff5555;
+  --color-yellow: #f1fa8c;
+
+  /* Mappings */
+  --color-link: var(--color-purple);
+}
+
+body {
+  margin: 1.2em;
+  font-size: 1rem;
+}
+@media (min-width: 20rem) {
+  body {
+    font-size: calc(1rem + 0.00625 * (100vw - 20rem));
+  }
+}
+@media (min-width: 40rem) {
+  body {
+    font-size: 1.125rem;
+  }
+}
+body header,
+body main,
+body footer,
+body article {
+  position: relative;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+body > header {
+  margin-bottom: 50px;
+}
+body > header p {
+  margin: 0;
+  font-size: 0.85em;
+}
+body > footer {
+  margin-top: 6em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #444444;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-display: optional;
+  font-size: 20px;
+  color: var(--color-foreground);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Crimson Text", sans-serif;
+  color: var(--color-purple);
+}
+h1 a{
+    color: var(--color-orange);
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+html {
+  background: var(--color-background);
+}
+
+h1.name {
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+a {
+  color: var(--color-cyan);
+}
+
+a:hover,
+a:active,
+a:focus,
+a:active {
+  color: var(--color-green);
+}
+
+nav a {
+  padding: 0.1rem 0.2rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  color: var(--color-foreground);
+  overflow: hidden;
+  background-image: linear-gradient(
+    120deg,
+    var(--color-pink) 0%,
+    var(--color-red) 100%
+  );
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--color-foreground);
+  background-size: 100% 100%;
+}
+
+nav li:first-child a {
+  margin-left: 0;
+}
+
+nav li:last-child a {
+  margin-right: 0;
+}
+
+a.button {
+  margin: auto;
+  background: var(--color-green);
+  border-radius: 1.5rem;
+  text-align: center;
+  width: 15rem;
+  height: 3rem;
+  display: inline-flex;
+  color: var(--color-background);
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+strong {
+  color: var(--color-pink);
+}
